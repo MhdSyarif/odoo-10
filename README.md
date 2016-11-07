@@ -21,8 +21,24 @@ Field Name => x_event_topex
 Field Label => Topex Coordinator
 Field Type => many2one
 
-Object Type => res.user
+Object Type => res.users
+
+3. Project Code
+Field Name => x_event_project_code
+Field Label => Project Code
+Field Type => char
+
+Size => 15
+
 ====================
 Disabled Fields
 
 invisible = '1'
+
+======================
+edit calender
+
+color = "x_event_room"
+
+name = "x_event_room"
+name = "x_event_topex"

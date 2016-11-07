@@ -1,4 +1,4 @@
-# odoo-10
+# Odoo-10
 Note Odoo 10
 
 #Events
@@ -42,3 +42,42 @@ color = "x_event_room"
 
 name = "x_event_room"
 name = "x_event_topex"
+
+
+
+16:43 08/11/2016
+
+Menambahkan field Trainer, Traning Place
+
+Add Model
+search is_partner
+
+1. Trainer
+Field Name => x_is_trainer
+Field Label => Trainer
+Field Type => boolean
+
+2. Training Place
+Field Name => x_training_place
+Field label => Training Place
+Field Type => boolean
+
+
+Add form Sales
+
+name ="x_is_trainer"
+name ="x_is_training_place"
+
+Event
+
+add model
+
+1. Trainer
+
+Field Name => x_event_trainer
+Fild Label => Trainer
+Field Type => many2one
+object => res.partner
+
+add form
+name ="x_event_trainer"

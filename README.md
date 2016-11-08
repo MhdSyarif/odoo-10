@@ -52,10 +52,7 @@ edit calender
 color = "x_event_room"
 
 name = "x_event_room"
-<<<<<<< HEAD
 
-=======
->>>>>>> 1aa3d66d3b59d134fa42a9da83691f941769691c
 name = "x_event_topex"
 
 ===========================

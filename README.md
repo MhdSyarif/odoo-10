@@ -43,8 +43,7 @@ color = "x_event_room"
 name = "x_event_room"
 name = "x_event_topex"
 
-
-
+===========================
 16:43 08/11/2016
 
 Menambahkan field Trainer, Traning Place

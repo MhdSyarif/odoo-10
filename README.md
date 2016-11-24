@@ -62,7 +62,7 @@ Menambahkan field Trainer, Traning Place
 
 Add Model
 
-search is_partner
+search => Users
 
 1. Trainer
 
@@ -81,7 +81,8 @@ Field label => Training Place
 Field Type => boolean
 
 
-Add form Sales
+Add form Sales 
+search => Partner
 
 name ="x_is_trainer"
 
@@ -104,3 +105,13 @@ object => res.partner
 add form
 
 name ="x_event_trainer"
+
+=======================================
+Edit Kanban Event
+
+=>Edit Kanban View
+
+Add :
+
+<h4><field name="address_id"/></h4>
+<h4><field name="x_event_room"/></h4>

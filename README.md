@@ -112,6 +112,7 @@ Edit Kanban Event
 =>Edit Kanban View
 
 Add :
-
+#<div class="o_event_right">
+#<h4><field name="name"/></h4>
 <h4><field name="address_id"/></h4>
 <h4><field name="x_event_room"/></h4>
